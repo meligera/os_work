@@ -16,7 +16,7 @@
 
 ## Решение: vetki.sh
 
-<a href="https://ibb.co/xLBs5yq"><img src="https://i.ibb.co/9g1vYJH/Screenshot-from-2022-09-05-11-22-01.png" alt="Screenshot-from-2022-09-05-11-22-01" border="0"></a><br/><a target='_blank' href='https://ru.imgbb.com/'>перевод по фото с английского на русский</a><br />
+<a href="https://ibb.co/xLBs5yq"><img src="https://i.ibb.co/9g1vYJH/Screenshot-from-2022-09-05-11-22-01.png" alt="Screenshot-from-2022-09-05-11-22-01" border="0"></a><br/><a target='_blank' href='https://ru.imgbb.com/'></a><br />
 
 # Задание #2:
 
@@ -30,7 +30,7 @@
 
 ## Решение: vozrast.sh
 
-<a href="https://ibb.co/XZLyGsb"><img src="https://i.ibb.co/TB2KN8k/Screenshot-from-2022-09-05-11-21-32.png" alt="Screenshot-from-2022-09-05-11-21-32" border="0"></a><br /><a target='_blank' href='https://ru.imgbb.com/'>перевод по фото с английского на русский</a><br />
+<a href="https://ibb.co/XZLyGsb"><img src="https://i.ibb.co/TB2KN8k/Screenshot-from-2022-09-05-11-21-32.png" alt="Screenshot-from-2022-09-05-11-21-32" border="0"></a><br /><a target='_blank' href='https://ru.imgbb.com/'></a><br />
 # Задание #3:
 
  
@@ -38,4 +38,4 @@
 
 #$ Решение: evklid.sh
 
-<a href="https://ibb.co/sqRzzYP"><img src="https://i.ibb.co/0r2vvbX/Screenshot-from-2022-09-05-11-22-29.png" alt="Screenshot-from-2022-09-05-11-22-29" border="0"></a><br /><a target='_blank' href='https://ru.imgbb.com/'>перевод по фото с английского на русский</a><br />
+<a href="https://ibb.co/sqRzzYP"><img src="https://i.ibb.co/0r2vvbX/Screenshot-from-2022-09-05-11-22-29.png" alt="Screenshot-from-2022-09-05-11-22-29" border="0"></a><br /><a target='_blank' href='https://ru.imgbb.com/'></a><br />

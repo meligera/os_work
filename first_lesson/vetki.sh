@@ -3,7 +3,10 @@
 echo -n "Skoka studentov?"
 echo ""
 read STUDENTS
-
+re='^[0-9]+$'
+if ! [[ $STUDENTS =~ $re ]] ; then
+   echo "error: Not a number" >&2; exit 1
+fi
 echo "$STUDENTS"
 
 case $STUDENTS in

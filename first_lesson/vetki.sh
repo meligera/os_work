@@ -30,7 +30,7 @@ case $STUDENTS in
     echo "4 students"
   ;;
   *)
-    echo "A lot of studnets"
+    echo "A lot of students"
     ;; 
 esac
 

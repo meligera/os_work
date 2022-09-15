@@ -1,0 +1,20 @@
+--- src/nodes/hypertable_modify.c.orig	2022-03-23 14:31:07.840845732 +0300
++++ src/nodes/hypertable_modify.c	2022-03-23 14:33:27.755287290 +0300
+@@ -37,7 +37,7 @@
+ static TupleTableSlot *ExecProcessReturning(ResultRelInfo *resultRelInfo, TupleTableSlot *tupleSlot,
+ 											TupleTableSlot *planSlot);
+ static void ExecInitInsertProjection(ModifyTableState *mtstate, ResultRelInfo *resultRelInfo);
+-static void ExecInitUpdateProjection(ModifyTableState *mtstate, ResultRelInfo *resultRelInfo);
++extern void ExecInitUpdateProjection(ModifyTableState *mtstate, ResultRelInfo *resultRelInfo);
+ static void ExecCheckPlanOutput(Relation resultRel, List *targetList);
+ static TupleTableSlot *ExecGetInsertNewTuple(ResultRelInfo *relinfo, TupleTableSlot *planSlot);
+ static TupleTableSlot *ExecInsert(ModifyTableState *mtstate, ResultRelInfo *resultRelInfo,
+@@ -1104,7 +1104,7 @@
+  *
+  * copied verbatim from executor/nodeModifyTable.c
+  */
+-static void
++extern void
+ ExecInitUpdateProjection(ModifyTableState *mtstate, ResultRelInfo *resultRelInfo)
+ {
+ 	ModifyTable *node = (ModifyTable *) mtstate->ps.plan;

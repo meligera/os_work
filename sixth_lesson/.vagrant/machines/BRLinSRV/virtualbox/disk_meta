@@ -1,0 +1,1 @@
+{"disk":[{"uuid":"a41c4aea-a459-47d4-90ef-e181741aacc8","port":"0","device":"1","name":"BRLinSRV_disk1","controller":"IDE"},{"uuid":"d5b9e19a-c962-49f9-aec1-f7f79dd89122","port":"1","device":"0","name":"BRLinSRV_disk2","controller":"IDE"}],"floppy":[],"dvd":[]}

@@ -1,0 +1,67 @@
+---
+# tasks file for web
+
+- name: epel-install
+  yum:
+    name:  
+      - nano
+      - mc
+      - http://rpms.remirepo.net/enterprise/remi-release-7.rpm 
+    state: present
+
+- name: Add redhat repo
+  copy:
+    src: pgdg-redhat-all.repo
+    dest: /etc/yum.repos.d/pgdg-redhat-all.repo
+
+- name: nginx and php install
+  yum:
+    name:  
+      - nginx
+      - php-fpm
+    state: present
+
+- name: libpq install
+  yum:
+    name:  
+      - libpq
+    state: present
+
+- name: php-pgsql
+  yum:
+    name:  
+      - php-pgsql
+    state: present
+
+- name: disable selinux
+  copy:
+    src: config
+    dest: /etc/selinux/config 
+
+- name: reboot
+  ansible.builtin.reboot:
+
+- name: Change nginx.conf
+  copy:
+    src: nginx.conf
+    dest: /etc/nginx/nginx.conf
+
+- name: Change index.php
+  copy:
+    src: index.php
+    dest: /usr/share/nginx/html/index.php
+  notify:
+    - restart nginx
+  tags: finish
+
+
+- name: Change php-fpm configuration
+  copy:
+    src: php-fpm
+    dest: /etc/php-fpm.conf 
+  notify:
+    - restart php
+
+
+
+

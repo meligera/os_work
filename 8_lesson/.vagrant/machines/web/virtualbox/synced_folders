@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/home/keiko/Workspace/8_lesson","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
